@@ -1,0 +1,40 @@
+﻿# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python caches and test/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local experiment-tracker working directories
+wandb/
+mlruns/
+
+# Large model checkpoints and weights
+checkpoints/
+models/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Downloaded raw datasets (keep manifests and documentation)
+data/raw/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
