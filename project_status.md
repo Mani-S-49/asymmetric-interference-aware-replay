@@ -7,13 +7,19 @@
 
 ## Workspace setup
 
+
 - [x] Create separate implementation folder
 - [x] Initialize Git repository in the implementation folder
 - [x] Configure repository-specific Git name and email
 - [x] Verify the authoritative research-plan file
-- [ ] Review initial documentation and Git ignore rules
-- [ ] Create initial Git commit
-- [ ] Create and connect the GitHub repository
+- [x] Review initial documentation and Git ignore rules
+- [x] Create initial Git commit
+- [x] Create and connect the GitHub repository
+
+
+**Setup verification:** The initial commit (`c750347`) is present on `main`, and `main` is synchronized with `origin/main`. The working tree was clean at the last Git status check.
+
+**Current research phase:** Phase 0 — Onboarding. The experiment has not started.
 
 ## Research phases
 
