@@ -292,6 +292,11 @@ def run_experiment(
         model,
         lora_config,
     )
+    # Keep trainable parameters in FP32 for FP16 gradient scaling.
+    # The frozen base-model parameters remain in FP16.
+    for param in model.parameters():
+        if param.requires_grad:
+            param.data = param.data.float()
 
     model.print_trainable_parameters()
 
