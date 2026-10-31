@@ -120,7 +120,7 @@ def training_args(output_dir, cfg, epochs, seed):
             t.get("gradient_checkpointing", False)
         ),
         max_grad_norm=float(t.get("max_grad_norm", 1)),
-        warmup_ratio=float(t.get("warmup_ratio", 0)),
+        warmup_steps=0,
         fp16=fp16,
         bf16=bf16,
         report_to=t.get("report_to", "none"),
