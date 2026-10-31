@@ -1,0 +1,9 @@
+﻿transformers
+datasets
+peft
+accelerate
+scikit-learn
+pandas
+matplotlib
+PyYAML
+safetensors

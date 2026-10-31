@@ -1,0 +1,1 @@
+# Phase 2 — Baselines\n\nStatus: not started. Follow the authoritative research plan. Do not begin until the prior phase checkpoint is reviewed.\n

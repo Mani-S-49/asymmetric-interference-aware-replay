@@ -1,0 +1,1 @@
+# Phase 3 experiment notes\n\nStatus: not started. Record research question, hypothesis, config, dataset/splits, seed and stream order, environment, metrics, artifacts, interpretation, limitations, and decision after actual execution.\n

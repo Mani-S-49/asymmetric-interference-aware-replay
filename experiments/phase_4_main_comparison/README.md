@@ -1,0 +1,1 @@
+# Phase 4 — Main Comparison\n\nStatus: not started. Follow the authoritative research plan. Do not begin until the prior phase checkpoint is reviewed.\n
